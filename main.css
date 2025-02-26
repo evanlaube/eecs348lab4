@@ -159,3 +159,21 @@ td:hover {
 th {
     background: gray;
 }
+
+.passField {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    font-size: 1.25em;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: lightblue;
+}
+
+button:active {
+    background: rgb(100, 100, 255);
+}

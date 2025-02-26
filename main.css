@@ -42,6 +42,7 @@ main {
     margin: auto;
     width: 50%;
     align-content: center;
+    text-align: center;
 }
 
 .content {
@@ -76,7 +77,52 @@ main {
     background: lightblue;
 }
 
+#target {
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    width: 70%;
+    border: 2px solid black;
+}
 
+ul {
+    text-decoration: none;
+    display: flex; 
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+}
 
+li {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+}
 
+p {
+    padding: 0;
+    margin: 0;
+}
 
+button {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+img, video {
+    border-radius: 10px;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
